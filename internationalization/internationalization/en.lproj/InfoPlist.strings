@@ -1,0 +1,28 @@
+/* 
+  InfoPlist.strings
+  internationalization
+
+  Created by Jone on 2020/5/11.
+  Copyright © 2020 Jone. All rights reserved.
+*/
+// CFBundleDisplayName：特别说明下，new的那个“.strings”文件一定要叫“InfoPlist”，否则不生效
+
+"CFBundleDisplayName" = "EnglishName";
+
+"language" = "English";
+
+"denglu" = "Login";
+
+"account" = "Phone number/email address";
+
+"password" = "Password";
+
+"verification" = "Verification code";
+
+"message" = "SMS verification code";
+
+"forget" = "Forget?";
+
+"newregist" = "Registration";
+
+"question" = "Problems";

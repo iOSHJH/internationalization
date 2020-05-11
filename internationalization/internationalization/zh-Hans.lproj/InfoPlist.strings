@@ -1,0 +1,26 @@
+/* 
+  InfoPlist.strings
+  internationalization
+
+  Created by Jone on 2020/5/11.
+  Copyright © 2020 Jone. All rights reserved.
+*/
+"CFBundleDisplayName" = "中文名字";
+
+"language" = "简体中文";
+
+"denglu" = "登录";
+
+"account" = "请输入手机号/邮箱";
+
+"password" = "请输入登录密码";
+
+"verification" = "请输入验证码";
+
+"message" = "通过短信验证码登录";
+
+"forget" = "忘记密码？";
+
+"newregist" = "新用户注册";
+
+"question" = "常见问题";
