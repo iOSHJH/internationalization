@@ -7,20 +7,8 @@
 */
 "CFBundleDisplayName" = "中文名字";
 
-"language" = "简体中文";
+"NSCameraUsageDescription" = "将用于连接设备扫描设备二维码或拍照,需要您的同意";
 
-"denglu" = "登录";
+"NSPhotoLibraryUsageDescription" = "将用于图像保存到手机相册中或获取相册，需要您的同意";
 
-"account" = "请输入手机号/邮箱";
-
-"password" = "请输入登录密码";
-
-"verification" = "请输入验证码";
-
-"message" = "通过短信验证码登录";
-
-"forget" = "忘记密码？";
-
-"newregist" = "新用户注册";
-
-"question" = "常见问题";
+"NSPhotoLibraryAddUsageDescription" = "将用于图像保存到手机相册中或获取相册，需要您的同意";

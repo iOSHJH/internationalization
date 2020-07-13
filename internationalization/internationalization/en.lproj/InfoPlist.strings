@@ -5,24 +5,16 @@
   Created by Jone on 2020/5/11.
   Copyright © 2020 Jone. All rights reserved.
 */
+
 // CFBundleDisplayName：特别说明下，new的那个“.strings”文件一定要叫“InfoPlist”，否则不生效
 
 "CFBundleDisplayName" = "EnglishName";
 
-"language" = "English";
+"NSCameraUsageDescription" = "Will be used to connect device scanning equipment qr code or photograph, need your approval";
 
-"denglu" = "Login";
+"NSPhotoLibraryUsageDescription" = "Save the image to the phone album or get the album, need your approval";
 
-"account" = "Phone number/email address";
+"NSPhotoLibraryAddUsageDescription" = "Save the image to the phone album or get the album, need your approval";
 
-"password" = "Password";
 
-"verification" = "Verification code";
 
-"message" = "SMS verification code";
-
-"forget" = "Forget?";
-
-"newregist" = "Registration";
-
-"question" = "Problems";

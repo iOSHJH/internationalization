@@ -86,12 +86,19 @@ static ChangeLanguage * sharedModel;
 }
 
 //重新设置
-
 -(void)resetRootViewController{
     AppDelegate * appDelegate=(AppDelegate *)[[UIApplication sharedApplication]delegate];
     UIStoryboard * SB=[UIStoryboard storyboardWithName:@"Main"bundle:nil];
     UITabBarController * tabBarController=[SB instantiateViewControllerWithIdentifier:@"tabBarController"];
     tabBarController=(UITabBarController *)appDelegate.window.rootViewController;
+}
+
+/// 获取当前设备语言
++ (NSString *)getCurrentLanguage {
+    NSArray *appLanguages = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
+    NSString *languageName = [appLanguages objectAtIndex:0];
+    NSLog(@"当前设备语言：%@", languageName);
+    return languageName;
 }
 
 @end

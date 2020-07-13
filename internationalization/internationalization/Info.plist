@@ -60,5 +60,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>Will be used for connecting device scanning equipment qr code, and you need your approval</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>For smoother monitoring of devices, matching the region during use requires your consent.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>For smoother monitoring of devices, matching the region during use requires your consent.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>For smoother monitoring of devices, matching the region during use requires your consent.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Will be used for device voice intercom, and you need your approval</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>The device will be used to detect and save images, and you need your approval</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The device will be used to detect and save images, and you need your approval</string>
+    
 </dict>
 </plist>

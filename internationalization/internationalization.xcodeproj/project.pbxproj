@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6FF54E24BC2AD1006BA6BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F6FF55024BC2AD1006BA6BC /* Localizable.strings */; };
+		0F6FF55424BC2DAA006BA6BC /* language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F6FF55624BC2DAA006BA6BC /* language.strings */; };
 		FEF2B6F12468E9250076B997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B6F02468E9250076B997 /* AppDelegate.m */; };
 		FEF2B6F42468E9250076B997 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B6F32468E9250076B997 /* SceneDelegate.m */; };
 		FEF2B6F72468E9250076B997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B6F62468E9250076B997 /* ViewController.m */; };
@@ -38,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6FF54F24BC2AD1006BA6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0F6FF55124BC2AD3006BA6BC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0F6FF55524BC2DAA006BA6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/language.strings; sourceTree = "<group>"; };
+		0F6FF55724BC2DAF006BA6BC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/language.strings"; sourceTree = "<group>"; };
+		0FCD438524BC34C80071CD89 /* internationalization-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "internationalization-Bridging-Header.h"; sourceTree = "<group>"; };
 		FEF2B6EC2468E9250076B997 /* internationalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internationalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF2B6EF2468E9250076B997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEF2B6F02468E9250076B997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,7 +132,10 @@
 				FEF2B6FD2468E9270076B997 /* LaunchScreen.storyboard */,
 				FEF2B7002468E9270076B997 /* Info.plist */,
 				FEF2B7012468E9270076B997 /* main.m */,
+				0F6FF55624BC2DAA006BA6BC /* language.strings */,
+				0F6FF55024BC2AD1006BA6BC /* Localizable.strings */,
 				FEF2B72A2468E9F00076B997 /* InfoPlist.strings */,
+				0FCD438524BC34C80071CD89 /* internationalization-Bridging-Header.h */,
 			);
 			path = internationalization;
 			sourceTree = "<group>";
@@ -215,6 +225,7 @@
 				TargetAttributes = {
 					FEF2B6EB2468E9250076B997 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1150;
 					};
 					FEF2B7062468E9270076B997 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -252,9 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6FF54E24BC2AD1006BA6BC /* Localizable.strings in Resources */,
 				FEF2B6FF2468E9270076B997 /* LaunchScreen.storyboard in Resources */,
 				FEF2B7282468E9F00076B997 /* InfoPlist.strings in Resources */,
 				FEF2B6FC2468E9270076B997 /* Assets.xcassets in Resources */,
+				0F6FF55424BC2DAA006BA6BC /* language.strings in Resources */,
 				FEF2B6FA2468E9250076B997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +333,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0F6FF55024BC2AD1006BA6BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6FF54F24BC2AD1006BA6BC /* en */,
+				0F6FF55124BC2AD3006BA6BC /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0F6FF55624BC2DAA006BA6BC /* language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6FF55524BC2DAA006BA6BC /* en */,
+				0F6FF55724BC2DAF006BA6BC /* zh-Hans */,
+			);
+			name = language.strings;
+			sourceTree = "<group>";
+		};
 		FEF2B6F82468E9250076B997 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -466,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FF75Z63XL;
 				INFOPLIST_FILE = internationalization/Info.plist;
@@ -476,6 +508,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hjh.bpTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "internationalization/internationalization-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -484,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FF75Z63XL;
 				INFOPLIST_FILE = internationalization/Info.plist;
@@ -494,6 +530,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hjh.bpTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "internationalization/internationalization-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

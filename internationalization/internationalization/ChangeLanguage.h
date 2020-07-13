@@ -38,5 +38,8 @@
 */
 -(void)setNewLanguage:(NSString *)language;
 
+/// 获取当前设备语言
++ (NSString *)getCurrentLanguage;
+
 @end
 

@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  internationalization
+
+  Created by Ansjer on 2020/7/13.
+  Copyright © 2020 Jone. All rights reserved.
+*/
+
+"language" = "简体中文";
+
+"denglu" = "登录";
+
+"account" = "请输入手机号/邮箱";
+
+"password" = "请输入登录密码";
+
+"verification" = "请输入验证码";
+
+"message" = "通过短信验证码登录";
+
+"forget" = "忘记密码？";
+
+"newregist" = "新用户注册";
+
+"question" = "常见问题";
