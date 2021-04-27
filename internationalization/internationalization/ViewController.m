@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ChangeLanguage.h"
+#import "LanguageManage.h"
 
 @interface ViewController ()
 
@@ -27,14 +27,14 @@
 //    $(PRODUCT_NAME)
     
 //    [self switchYuyan:self.yuyan];
-    [[ChangeLanguage sharedInstance] setNewLanguage:[ChangeLanguage getCurrentLanguage]];
+//    [[LanguageManage sharedInstance] setNewLanguage:[LanguageManage getCurrentLanguage]];
     [self setText];
     
     
 }
 
 - (IBAction)switchYuyan:(id)sender {
-    [[ChangeLanguage sharedInstance] changeNowLanguage];
+    [[LanguageManage sharedInstance] changeNowLanguage];
     [self setText];
 }
 

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ChangeLanguage:NSObject
+@interface LanguageManage:NSObject
 
-#define FGGetStringWithKeyFromTable(key, tbl) [[ChangeLanguage sharedInstance] getStringForKey:key withTable:tbl]
+#define FGGetStringWithKeyFromTable(key, tbl) [[LanguageManage sharedInstance] getStringForKey:key withTable:tbl]
 
 @property(nonatomic,strong)NSString * language;
 

@@ -19,7 +19,7 @@
 		FEF2B70C2468E9270076B997 /* internationalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B70B2468E9270076B997 /* internationalizationTests.m */; };
 		FEF2B7172468E9270076B997 /* internationalizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B7162468E9270076B997 /* internationalizationUITests.m */; };
 		FEF2B7282468E9F00076B997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEF2B72A2468E9F00076B997 /* InfoPlist.strings */; };
-		FEF2B72E2468EA880076B997 /* ChangeLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B72D2468EA880076B997 /* ChangeLanguage.m */; };
+		FEF2B72E2468EA880076B997 /* LanguageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B72D2468EA880076B997 /* LanguageManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		FEF2B7252468E9C50076B997 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		FEF2B7292468E9F00076B997 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		FEF2B72B2468E9F40076B997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FEF2B72C2468EA880076B997 /* ChangeLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeLanguage.h; sourceTree = "<group>"; };
-		FEF2B72D2468EA880076B997 /* ChangeLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeLanguage.m; sourceTree = "<group>"; };
+		FEF2B72C2468EA880076B997 /* LanguageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
+		FEF2B72D2468EA880076B997 /* LanguageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 		FEF2B6EE2468E9250076B997 /* internationalization */ = {
 			isa = PBXGroup;
 			children = (
-				FEF2B72C2468EA880076B997 /* ChangeLanguage.h */,
-				FEF2B72D2468EA880076B997 /* ChangeLanguage.m */,
+				FEF2B72C2468EA880076B997 /* LanguageManage.h */,
+				FEF2B72D2468EA880076B997 /* LanguageManage.m */,
 				FEF2B6EF2468E9250076B997 /* AppDelegate.h */,
 				FEF2B6F02468E9250076B997 /* AppDelegate.m */,
 				FEF2B6F22468E9250076B997 /* SceneDelegate.h */,
@@ -295,7 +295,7 @@
 			files = (
 				FEF2B6F72468E9250076B997 /* ViewController.m in Sources */,
 				FEF2B6F12468E9250076B997 /* AppDelegate.m in Sources */,
-				FEF2B72E2468EA880076B997 /* ChangeLanguage.m in Sources */,
+				FEF2B72E2468EA880076B997 /* LanguageManage.m in Sources */,
 				FEF2B7022468E9270076B997 /* main.m in Sources */,
 				FEF2B6F42468E9250076B997 /* SceneDelegate.m in Sources */,
 			);
@@ -506,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hjh.bpTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansjer.ABCD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "internationalization/internationalization-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -528,7 +528,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hjh.bpTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansjer.ABCD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "internationalization/internationalization-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

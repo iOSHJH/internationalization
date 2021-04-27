@@ -6,7 +6,7 @@
 //  Copyright © 2020 Jone. All rights reserved.
 //
 
-#import"ChangeLanguage.h"
+#import"LanguageManage.h"
 
 #import"AppDelegate.h"
 
@@ -16,19 +16,19 @@
 
 #define LANGUAGE_SET @"langeuageset"
 
-@interface ChangeLanguage()
+@interface LanguageManage()
 
 @property(nonatomic,strong)NSBundle * bundle;
 
 @end
 
-@implementation ChangeLanguage
+@implementation LanguageManage
 
-static ChangeLanguage * sharedModel;
+static LanguageManage * sharedModel;
 
 +(id)sharedInstance{
     if(!sharedModel){
-        sharedModel=[[ChangeLanguage alloc]init];
+        sharedModel=[[LanguageManage alloc]init];
     }
     return sharedModel;
 }
@@ -45,7 +45,7 @@ static ChangeLanguage * sharedModel;
     NSString*tmp=[[NSUserDefaults standardUserDefaults]objectForKey:LANGUAGE_SET];
     NSString*path;
     //默认是中文
-    if([tmp isEqualToString:CNS]||!tmp){
+    if([tmp isEqualToString:CNS] || !tmp){
         tmp=CNS;
     }else{
         tmp=EN;
