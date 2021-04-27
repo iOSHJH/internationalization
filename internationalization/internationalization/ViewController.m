@@ -24,6 +24,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 跟随系统写法，就不会用到这个类 LanguageManage
+    // [self.yuyan setTitle:NSLocalizedString(@"language", nil) forState:UIControlStateNormal];
+    
+    
+    
+    
 //    $(PRODUCT_NAME)
     
 //    [self switchYuyan:self.yuyan];
